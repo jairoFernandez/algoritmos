@@ -12,7 +12,7 @@ struct client
 
 int main(int argc, char const *argv[])
 {
-  struct client client1 = {0};
+  struct client client1;
   strcpy(client1.Name, "Camilo Valencia");
   strcpy(client1.Id, "0000000001");
   client1.Credit = 1000000;
